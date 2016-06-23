@@ -19,13 +19,17 @@ function printAnchorTag($link, $text){
 }
 function avoidPrinting($dir){
 	if(is_dir($dir)){
-		$last = end(explode(DIRECTORY_SEPARATOR,$dir));
+		//$last = end(explode(DIRECTORY_SEPARATOR,$dir));
+		$tmp  = explode('/',$dir);
+		$last = end($tmp);
 		if(in_array($last , array('app' ,'config','vendor','.git','nbproject' ))){
 			return true;
 		}
 	}
 	if( is_file($dir) ){
-		$last = end(explode(DIRECTORY_SEPARATOR,$dir));
+		//$last = end(explode(DIRECTORY_SEPARATOR,$dir));
+	        $tmp  = explode('/',$dir);
+		$last = end($tmp);
 		if(strpos($last, '.php')===false){
 			return true;
 		}
