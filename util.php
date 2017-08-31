@@ -127,7 +127,7 @@ EOL;
             if (is_dir($fullPath)) {
                 $ret[$entry] = $this->findAllFiles($fullPath, $depth - 1, $fileFormat);
             } elseif ($this->validFile($fullPath, $fileFormat)) {
-                $ret[] = $fullPath;
+                $ret[$entry] = $fullPath;
             }
         }
 
@@ -151,12 +151,12 @@ EOL;
                 continue;
             }
 
-            if (is_string($key)) {
+            if (is_array($key)) {
                 echo "<span class='list-group-item'> $key </span>";
                 $this->printTree($value, $label + 1);
             } else {
                 echo '<li class="list-group-item">';
-                echo "<a href='$value'> {$value} </a>";
+                echo "<a href='$value'> {$key} </a>";
                 echo "</li>";
             }
         }
