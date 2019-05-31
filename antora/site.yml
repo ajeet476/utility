@@ -8,8 +8,20 @@ content:
   - url: https://github.com/ajeet476/utility.git
     branches: feature/documentation
     start_path: docs
+  - url: https://github.com/ajeet476/utility.git
+    branches: feature/api-doc
+    start_path: docs
+  - url: https://github.com/ajeet476/utility.git
+    branches: feature/shop-api-doc
+    start_path: docs
 
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+
+asciidoc:
+  attributes:
+    plantuml-server-url: http://www.plantuml.com/plantuml
+  extensions:
+    - asciidoctor-plantuml
