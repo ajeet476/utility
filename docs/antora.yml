@@ -1,5 +1,5 @@
-name: main
-title: main
+name: index
+title: Index
 version: dev
 nav:
 - modules/ROOT/nav.adoc

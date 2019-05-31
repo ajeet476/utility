@@ -1,7 +1,7 @@
 site:
   title: Unitility
   url: https://github.com/ajeetcse476
-  start_page: main::index.adoc
+  start_page: index::index.adoc
 
 content:
   sources:

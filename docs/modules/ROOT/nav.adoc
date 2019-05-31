@@ -1,4 +1,4 @@
-* xref:index.adoc[Sidebar]
-* xref:developer.adoc[UI Macros]
+* xref:index.adoc[Index]
+* xref:developer.adoc[Developer]
 * Lists
 ** Test
