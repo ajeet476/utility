@@ -11,8 +11,56 @@ Our API follows MicroService Architecture
 == Major Components
 
 
-TODO
+[planuml, api-components, svg]
+....
+@startuml
 
+skinparam componentStyle uml2
+
+title Packages - Component Diagram
+
+actor User
+
+node "PHP_APPS" {
+}
+
+cloud Internet {
+}
+
+node "API_CATALOGUE" {
+    [HMAC Plugins] as HMAC
+    [RAE Plugins] as RAE
+}
+
+node "RWASP" {
+    node "APPs" {
+        [APP Container Group1] as XXAPI
+        [APP Container Group2] as XYAPI
+    }
+    database "Redis" {
+        [Cluster of 6 node]
+    }
+}
+
+node "KAFKA" {
+    [Shared CLUSTER]
+}
+
+database "PostgreSQL" {
+    [beauty_#function]
+}
+
+User -down-> Internet
+Internet -right- RAE
+Internet -right- HMAC
+PHP_APPS -right- HMAC
+API_CATALOGUE -down- RWASP
+APPs -left- Redis
+APPs -down- PostgreSQL
+APPs -right- KAFKA
+
+@enduml
+....
 
 === API catalogue
 this is example text
