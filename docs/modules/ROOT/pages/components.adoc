@@ -1,0 +1,33 @@
+= API Components
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+Our API follows MicroService Architecture
+
+== Major Components
+
+
+TODO
+
+
+=== API catalogue
+this is example text
+
+=== Gsp
+gsp for searching
+
+=== Kafka cluster
+kafka
+
+=== Redis Cluster
+redis
+
+=== MySQL cluster
+mysql
+
+=== RWASP
+rwasp as

@@ -1,0 +1,13 @@
+= Api
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+== Preface
+We support variety of API
+
+* CRUD API
+* Composite API

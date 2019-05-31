@@ -1,0 +1,37 @@
+= Api List
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+// Settings
+:idprefix:
+:idseparator: -
+
+We have several APIs
+
+== AutoComplete API
+
+* Station Name
+* Area Name
+* Salon Name
+
+
+== MicroService List
+
+Following APIs follows MicroService Architecture
+
+|===
+|No |MicroService Name |Description
+
+|1
+|Shop API
+|manages shop data
+
+|2
+|Staff API
+|manges staff data
+
+|3
+|Menu API
+|manages menu data
+|===
+
