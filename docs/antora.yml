@@ -1,0 +1,5 @@
+name: shop-api
+title: Shop Api References
+version: dev
+nav:
+- modules/ROOT/nav.adoc
