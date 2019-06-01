@@ -17,7 +17,7 @@ Following APIs follows MicroService Architecture
 |No |MicroService Name |Description
 
 |1
-a|xref:dev@shop-api::index.adoc[Shop API]
+a|xref:shop-api:index.adoc[Shop API]
 |manages shop data
 
 |2
