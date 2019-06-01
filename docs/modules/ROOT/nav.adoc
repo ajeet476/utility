@@ -1,3 +1,2 @@
-* xref:index.adoc[Index]
-* xref:developer.adoc[Developer]
-* xref:dev@apidoc::index.adoc[API Reference]
+* xref:ROOT:index.adoc[Index]
+* xref:ROOT:developer.adoc[Developer]
