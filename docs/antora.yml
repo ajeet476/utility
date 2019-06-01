@@ -1,5 +1,5 @@
 name: apidoc
-title: Api References
+title: Index
 version: dev
 nav:
 - modules/ROOT/nav.adoc
