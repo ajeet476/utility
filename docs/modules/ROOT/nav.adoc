@@ -1,4 +1,3 @@
 * xref:index.adoc[Index]
 * xref:developer.adoc[Developer]
-* Lists
-** Test
+* xref:dev@apidoc::index.adoc[API Reference]
