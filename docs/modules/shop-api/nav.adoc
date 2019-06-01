@@ -1,1 +1,1 @@
-* xref:shop-api:index.adoc[Shop Api]
+*** xref:shop-api:index.adoc[Shop Api]
