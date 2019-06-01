@@ -1,1 +1,6 @@
-* xref:index.adoc[Shop Api]
+* xref:dev@index::index.adoc[Index]
+* xref:dev@index::developer.adoc[Developer]
+* xref:dev@apidoc::index.adoc[API Reference]
+** xref:dev@apidoc::components.adoc[Components]
+** xref:dev@apidoc::list.adoc[API List]
+*** xref:index.adoc[Shop Api]
