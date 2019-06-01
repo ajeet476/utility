@@ -3,3 +3,4 @@
 * xref:index.adoc[API Reference]
 ** xref:components.adoc[Components]
 ** xref:list.adoc[API List]
+*** xref:dev@shop-api::index.adoc[Shop API]
