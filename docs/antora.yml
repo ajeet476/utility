@@ -1,5 +1,5 @@
-name: apidoc
+name: index
 title: Index
 version: dev
 nav:
-- modules/ROOT/nav.adoc
+- modules/apidoc/nav.adoc

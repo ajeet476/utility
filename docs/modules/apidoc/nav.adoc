@@ -1,5 +1,3 @@
-* xref:dev@index::index.adoc[Index]
-* xref:dev@index::developer.adoc[Developer]
 * xref:index.adoc[API Reference]
 ** xref:components.adoc[Components]
 ** xref:list.adoc[API List]
