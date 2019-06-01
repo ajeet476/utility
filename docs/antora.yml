@@ -1,5 +1,3 @@
 name: index
 title: Index
 version: dev
-nav:
-- modules/apidoc/nav.adoc

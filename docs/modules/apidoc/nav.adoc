@@ -1,3 +1,0 @@
-* xref:apidoc:index.adoc[API Reference]
-** xref:apidoc:components.adoc[Components]
-** xref:apidoc:list.adoc[API List]
