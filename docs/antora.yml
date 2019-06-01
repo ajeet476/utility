@@ -1,5 +1,5 @@
-name: shop-api
+name: index
 title: Index
 version: dev
 nav:
-- modules/ROOT/nav.adoc
+- modules/shop-api/nav.adoc
