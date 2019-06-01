@@ -1,3 +1,9 @@
 = Developer
+:icons: font
 
 Hi I am a developer
+
+
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon

@@ -26,6 +26,7 @@ asciidoc:
     idprefix: ''
     idseparator: '-'
     experimental: ''
+    icons: font
     plantuml-server-url: http://www.plantuml.com/plantuml
   extensions:
     - asciidoctor-plantuml
