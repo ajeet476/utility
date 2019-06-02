@@ -5,9 +5,8 @@ Our API follows MicroService Architecture
 == Major Components
 
 
-[planuml, api-components, svg]
+[planuml#components,api-components,svg,role=sequence]
 ....
-@startuml
 
 skinparam componentStyle uml2
 
@@ -21,12 +20,12 @@ node "PHP_APPS" {
 cloud Internet {
 }
 
-node "API_CATALOGUE" {
+node "KONG" {
     [HMAC Plugins] as HMAC
-    [RAE Plugins] as RAE
+    [Token Plugins] as TOKEN
 }
 
-node "RWASP" {
+node "AWS_EC2" {
     node "APPs" {
         [APP Container Group1] as XXAPI
         [APP Container Group2] as XYAPI
@@ -45,15 +44,14 @@ database "PostgreSQL" {
 }
 
 User -down-> Internet
-Internet -right- RAE
+Internet -right- TOKEN
 Internet -right- HMAC
 PHP_APPS -right- HMAC
-API_CATALOGUE -down- RWASP
+KONG -down- AWS_EC2
 APPs -left- Redis
 APPs -down- PostgreSQL
 APPs -right- KAFKA
 
-@enduml
 ....
 
 === API catalogue
