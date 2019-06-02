@@ -8,10 +8,6 @@ Our API follows MicroService Architecture
 [planuml#components,api-components,svg,role=sequence]
 ....
 
-skinparam componentStyle uml2
-
-title Packages - Component Diagram
-
 actor User
 
 node "PHP_APPS" {
